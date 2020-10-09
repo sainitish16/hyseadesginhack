@@ -1,0 +1,22 @@
+.navbar {
+  padding: 4px 0;
+  background: #fff;
+  border: none;
+}
+.nav li a,
+.navbar .navbar-nav > li > a {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0a0a0a;
+  padding: 15px 12px;
+  display: block;
+  text-transform: uppercase;
+}
+.navbar .btn:hover {
+  background-color: rgb(0, 166, 81);
+}
+.navbar .btn {
+  background-color: #0072bc;
+  color: white;
+}

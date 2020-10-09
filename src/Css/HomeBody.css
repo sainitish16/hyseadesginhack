@@ -1,0 +1,207 @@
+
+.banner-job {
+	background-image: url('../Images/background2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	padding: 85px 0 75px;
+}
+
+.banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: rgba(40, 45, 50, 0.9);
+}
+
+.banner-job h1 {
+	font-size: 50px;
+}
+
+.banner-job h3 {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 25px 0 30px;
+}
+
+.banner-job .banner-form input {
+	margin-left: 0;
+	width: 60%;
+}
+
+.banner-job .category-dropdown {
+	border-left: 1px solid #e6e6e6;
+	border-right: 0;
+	border-radius: 0;
+	width: 20%;
+	padding: 0 35px;
+}
+.social-media-icons {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+a[title = "Facebook"]:hover{
+    color: #1DA1F2;
+}
+a[title = "Twitter"]:hover{
+    color: #1DA1F2;
+}
+a[title = "Google Plus"]:hover{
+    color: #DB4437;
+}
+a[title = "Youtube"]:hover{
+    color: #FF0000;
+}
+
+.step1{
+    margin-top: 55px;
+    background-color: white;
+    padding: 50px 25px 20px;
+    text-align: center;
+}
+.step1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.category-items {
+	background-color: #fff;
+	display: inline-block;
+	padding:40px 0px 10px;
+	border-radius: 3px;
+}
+
+.category a {
+	color: #505050;
+	display:block;
+}
+
+.banner-form .dropdown-menu {
+	min-width:100%;
+	padding:10px 0;
+}
+
+.category-icon {
+	min-height: 37px;
+	width: 100%;	
+}
+
+.category-icon img {
+	margin: 0 auto;
+}
+
+.category-title {
+	color:#505050;
+}
+.category-quantity {
+	color: #b5b5b5;
+} 
+
+.category-title {
+	display:block;
+	font-size: 16px;
+}
+
+.category-item:hover .category-quantity,
+.category-item:hover .category-title {
+	color :#00a651;
+}
+.category-list .category-icon {
+	margin-bottom: 5px;
+}
+
+ .category-list li {
+	width: 16.6%;
+	float: left;
+	min-height: 90px;
+	margin-bottom: 25px;
+}
+
+.step2{
+    margin-top: 55px;
+    background-color: white;
+    padding: 50px 25px 20px;
+}
+
+.step2 .nav-tabs .nav-link{
+    color: #9c9c9c;
+}
+.step2 .nav-tabs .nav-link.active{
+    color: #00a651;
+}
+.img-ad img{
+    width: 95px;
+    height: 85px;
+    border: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+.ad-details{
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;    
+    color: rgb(138, 138, 138);
+}
+.ad-details:hover{
+    color: "#00a651";
+}
+.ads a{
+    text-decoration: none;
+}
+.ad-title{
+    font-size: 20px;
+}
+.ads{
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+.workshop-trainig-title a{
+	color: black;
+	transition: all 500ms;
+}
+.workshop-trainig-title a:hover{
+	color: #00a651;
+}
+.download-app-play-main{
+	background: linear-gradient(to right, rgba(55,180,78,0.9) 0%,rgba(49,178,91,0.9) 24%,rgba(27,171,137,0.96) 77%,rgba(21,169,151,0.94) 100%);
+	color: white;
+}
+.download-app-play-main h2{
+	font-weight: 300;
+}
+.download-app strong {
+    font-size: 25px;
+    display: block;
+    font-weight: 400;
+}
+.download-app span {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.pull-left {
+    float: left;
+}
+.download-app {
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    color: #ffffff;
+    display: block;
+    overflow: hidden;
+    min-height: 75px;
+}
+.download-app img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.download-app:hover{
+	background-color: #00000028;
+	transition: all 800ms;
+}

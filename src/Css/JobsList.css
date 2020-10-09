@@ -1,0 +1,14 @@
+.JobsList #categories a{
+    text-decoration: none;
+    color: black;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.JobsList #categories a:hover{
+    color: green;
+    transition: all 500ms;
+}
+.JobsList .collapse{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
